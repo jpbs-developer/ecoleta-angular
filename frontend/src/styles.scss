@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body,
+html {
+  @apply min-h-screen bg-gray;
+}
+
+.wrapper {
+  @apply px-40;
+}
+
+.btn-green {
+  @apply py-7 h-[72px] bg-green rounded-lg  font-bold text-center text-white;
+}
